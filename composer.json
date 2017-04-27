@@ -1,0 +1,17 @@
+{
+    "name": "eric/flapi",
+    "description": "API pour flapibird",
+    "authors": [
+        {
+            "name": "Eric Closquet",
+            "email": "closquet.eric@live.be"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Controllers\\": "controllers/",
+            "Models\\": "models/"
+        }
+    }
+}
